@@ -38,7 +38,7 @@ const SideNavLayout = () => {
         >
           <h1 className="text-3xl font-bold mb-4">CORE</h1>
 
-          <nav className="space-y-2 flex-1">
+          <nav className="space-y-2 text-sm flex-1">
             <NavItem icon={<AiOutlineHome />} label="Home" />
             <NavItem icon={<CgProfile />} label="My Info" />
             <NavItem icon={<MdPeople />} label="People" active />
