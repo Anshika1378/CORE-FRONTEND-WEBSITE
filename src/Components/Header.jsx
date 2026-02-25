@@ -7,7 +7,7 @@ export default function MainRight() {
   return (
     <>
       {/* ================= HEADER ================= */}
-      <div className="w-full rounded-2xl bg-white px-4 py-3 shadow-sm">
+      <div className="w-full rounded-2xl bg-white px-4 py-2 shadow-sm">
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
           {/* LEFT SECTION */}
           <div className="flex items-center justify-between">

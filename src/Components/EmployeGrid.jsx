@@ -89,17 +89,17 @@ const EmployeeGrid = () => {
               className="w-full border border-gray-200 rounded-2xl py-2 pl-12 pr-4 focus:outline-none focus:ring-2 focus:ring-gray-300"
             />
           </div>
-          <div className="flex items-center">
+          <div className="flex items-center gap-2">
             <button className="border-2 border-gray-100 rounded-2xl px-4 py-2">
               <AiOutlineDownload />
             </button>
             <button className="border-2 border-gray-100 rounded-2xl px-4 py-2">
               <RiFlaskLine style={{ transform: "rotate(180deg)" }} />
             </button>
-            <button className="bg-gray-700 rounded-2xl px-2 h-10  text-white">
+            <button className="bg-gray-700 rounded-2xl px-2 h-9  text-white">
               <AiOutlinePlus />
             </button>
-            <div className="flex border-2 border-gray-100 rounded-2xl px-4 py-2  gap-4">
+            <div className="flex border-2 border-gray-100 rounded-2xl px-4 py-1  gap-4">
               <button className="px-2 py-2 bg-gray-700 rounded-xl text-white">
                 <BiGridAlt />
               </button>
